@@ -12,3 +12,7 @@ function Player(name) {
     this.score = 0;
     this.turnTotal = 0;
 };
+
+Player.prototype.addToTotal = function() {
+    this.score += this.turnTotal;
+}

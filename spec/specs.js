@@ -24,4 +24,12 @@ describe('Player', function() {
             expect(testPlayer.turnTotal).to.equal(0);
         });
     });
+describe('addToTotal', function() {
+    it("adds the running score to the total score", function() {
+        var testPlayer = new Player();
+        testPlayer.turnTotal += 6;
+        testPlayer.addToTotal();
+        expect(testPlayer.score).to.equal(6);
+        });
+    });
 });
