@@ -5,5 +5,4 @@ describe('Dice', function() {
       expect(testDice.value).to.equal(1);
     });
   });
-
- 
+ });
