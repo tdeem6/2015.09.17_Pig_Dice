@@ -13,3 +13,15 @@ describe('roll', function() {
         });
     });
 });
+
+describe('Player', function() {
+    describe('new', function() {
+        it("initializes a new player", function() {
+            var testPlayer = new Player("Mike");
+            expect(testPlayer.name).to.equal("Mike");
+            expect(testPlayer.currentRoll).to.equal(null);
+            expect(testPlayer.score).to.equal(0);
+            expect(testPlayer.turnTotal).to.equal(0);
+        });
+    });
+});
