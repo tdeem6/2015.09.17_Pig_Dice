@@ -1,0 +1,23 @@
+body {
+  background: url("http://www.retrograph.co.uk/wp-content/uploads//thumbnails/s103RGL020.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.vertical-center {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#p1-buttons-disabled {
+  display: none;
+}
+
+#p2-buttons {
+  display: none;
+}
+
+.p1-panel-header {
+    background-color: red;
+}
