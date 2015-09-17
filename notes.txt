@@ -1,0 +1,19 @@
+if roll of 1, all accumulated points for that roll are lost (eg, dont save points till after player submits rolls [aka "hold"])
+
+if >=100, player wins
+
+points are added each time they roll
+
+will need roll function
+
+a function for storing added values, then later added to player score. something like function= otherFunction + new roll;
+return other function + new roll
+
+and
+
+function "hold" = otherFunction + function;
+
+need two player, player vs ai:easy(always quits after second roll) player vs ai:hard(uses logic to make decisions)
+
+hard ai logic:
+stop after 3 rolls if score is greater than or equal to 10. otherwise, roll again.
